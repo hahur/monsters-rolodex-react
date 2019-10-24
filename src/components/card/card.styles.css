@@ -1,0 +1,24 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+}
+
+button {
+  text-decoration: none;
+  background-color: #2be964;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
